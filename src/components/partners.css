@@ -1,0 +1,35 @@
+.partners {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: white;
+    margin-top: 0%;
+    font-weight: lighter;
+    font-size: 1.2em;
+  }
+  
+  .partners h2 {
+    font-size: larger;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .partner-logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    color: #989898;
+    gap:unset;
+  }
+  
+  .partner-logos img {
+    max-width: 30px;
+    max-height: 100px;
+    object-fit: contain;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .partner-logos img:hover {
+    transform: scale(1.1);
+  }
+  

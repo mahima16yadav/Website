@@ -1,0 +1,65 @@
+/* Main Styles */
+main {
+    padding: 50px 0;
+  }
+  
+  .contents {
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  .subtitles {
+    color: black;
+    font-size: 1.2em;
+    margin-left: 1090px; /* Adjust subtitle positioning if needed */
+  }
+  
+  .head {
+    height: 500px;
+  }
+  
+  .about-us {
+    text-align: center;
+    font-weight: 500;
+  }
+  
+  .about-us h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .about-us p {
+    font-size: 1.1em;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .contact-button.learn-more {
+    background-color: white; /* Set button background color */
+    border: 2px solid black; /* Add black border */
+    color: black; /* Set button text color */
+    padding: 15px 30px; /* Add padding to the button */
+    font-size: 1.2em; /* Adjust button font size */
+    border-radius: 30px; /* Apply border-radius for rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add transition effect */
+    margin-bottom: 80px;
+  }
+  
+  .contact-button.learn-more:hover {
+    background-color: #f76c1b; /* Change background color on hover */
+  }
+  
+  /* Key to Clean Future Section Styles */
+  .key-to-clean-future {
+    text-align: center;
+    margin-top: 80px; /* Add spacing between sections */
+  }
+  
+  .key-to-clean-future .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Stack elements vertically */
+  }
+  
