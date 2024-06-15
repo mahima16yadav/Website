@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer {
+    background-color: white;
+    padding: 40px 20px;
+    text-align: left;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .brand {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  
+  .logo {
+    width: 24px;
+    height: 24px;
+    background-color: #ff6700;
+    margin-right: 10px;
+  }
+  
+  .newsletter {
+    max-width: 400px;
+    margin-top: 20px;
+  }
+  
+  .newsletter h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .newsletter p {
+    font-size: 0.9em;
+    margin-bottom: 20px;
+    color: #666;
+  }
+  
+  .subscribe {
+    display: flex;
+  }
+  
+  .subscribe input {
+    padding: 10px;
+    flex: 1;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  .subscribe button {
+    padding: 10px 20px;
+    background-color: #ff6700;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+  
+  .links {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .column {
+    flex: 1;
+    min-width: 150px;
+    margin-right: 20px;
+  }
+  
+  .column h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .column ul {
+    list-style: none;
+  }
+  
+  .column ul li {
+    margin-bottom: 10px;
+  }
+  
+  .column ul li a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .column ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .hiring {
+    background-color: #ff6700;
+    color: white;
+    font-size: 0.8em;
+    padding: 2px 5px;
+    border-radius: 3px;
+    margin-left: 5px;
+  }
+  
+  .copyright {
+    margin-top: 20px;
+    color: #999;
+    text-align: left;
+    width: 100%;
+  }
+  

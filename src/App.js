@@ -4,7 +4,11 @@ import Navbar from './components/navbar';
 import BodyComponent from './components/body';
 import About from './components/aboutUs';
 import ContactUs from './components/contact';
-// import Partners from './components/partners';
+import Flow from './components/flow';
+import SolarEnergy from './components/solar';
+import FAQ from './components/faq';
+import Home from './components/emergency';
+
 
 function App() {
   return (
@@ -12,7 +16,12 @@ function App() {
       <Navbar></Navbar>
       <BodyComponent/>
       <About/>
+      <SolarEnergy/>
+      <FAQ/>
+      <Home/>
       <ContactUs/>
+      <Flow/>
+      
       {/* <Partners/> */}
     </div>
     // <div className="App">

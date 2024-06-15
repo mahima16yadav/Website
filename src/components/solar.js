@@ -1,45 +1,32 @@
 import React from 'react';
-import './aboutUs.css';
+import './solar.css';
 
-function About() {
+function SolarEnergy() {
   return (
-    <div className="About">
-      <main>
-        {/* About Us section */}
-        <section className="about-us">
-          <div className="head">
-            <h2>About Us</h2>
-          </div>
-          <p>
-            At Lifeline Ambulance Services, we're committed to saving lives
-            sustainably. From fuel-efficient vehicles to waste reduction, we're
-            pioneering eco-conscious practices in emergency medical
-            transportation. Join us in driving toward a greener future, one
-            ambulance ride at a time.
-          </p>
-          <br />
-          <br />
-          <div className="button-container">
-            <a href="/about" className="contact-button learn-more">
-              Read more
-            </a>
-          </div>
-        </section>
-        {/* Key to a Clean Future section */}
-        <section className="key-to-clean-future">
-          <div className="content">
-            <h4>
-              <img src="./dot.png" alt="Dot" className="dot-image" /> Key to a Clean Future
-            </h4>
-            <p>
-              Our commitment to green energy is paving the way for a cleaner,
-              healthier planet.
-            </p>
-          </div>
-        </section>
-      </main>
+    <div className="solar-energy-container">
+      <div className="text-content">
+        <h1>Solar Energy</h1>
+        <br/><br/>
+        <p>
+          Solar panels convert sunlight into electricity. Photovoltaic (PV)<br/>
+          cells on these panels capture the energy from the sun and convert<br/> it
+          into electrical power.
+        </p>
+        <br/>
+        <br/>
+        <button className="learn-more-button">Learn more</button>
+        <br/><br/>
+        <br/><br/>
+        <div className="arrows">
+          <span>&larr;</span>
+          <span>&rarr;</span>
+        </div>
+      </div>
+      <div className="image-content">
+        <img src="./ambulance2.png" alt="Ambulance"/>
+      </div>
     </div>
   );
 }
 
-export default About;
+export default SolarEnergy;
