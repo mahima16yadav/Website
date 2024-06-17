@@ -5,18 +5,15 @@ function SolarEnergy() {
   return (
     <div className="solar-energy-container">
       <div className="text-content">
-        <h1>Solar Energy</h1>
-        <br/><br/>
+        <h1>Emergency Ambulance</h1>
+        <br/>
         <p>
           Solar panels convert sunlight into electricity. Photovoltaic (PV)<br/>
           cells on these panels capture the energy from the sun and convert<br/> it
           into electrical power.
         </p>
         <br/>
-        <br/>
         <button className="learn-more-button">Learn more</button>
-        <br/><br/>
-        <br/><br/>
         <div className="arrows">
           <span>&larr;</span>
           <span>&rarr;</span>
