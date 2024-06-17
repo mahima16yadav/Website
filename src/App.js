@@ -1,27 +1,26 @@
-import React from 'react';
-import './App.css';
-import Navbar from './components/navbar';
-import BodyComponent from './components/body';
-import About from './components/aboutUs';
-import ContactUs from './components/contact';
-import Flow from './components/flow';
-import SolarEnergy from './components/solar';
-import FAQ from './components/faq';
-import Home from './components/emergency';
-
+import React from "react";
+import "./App.css";
+import Navbar from "./components/navbar";
+import BodyComponent from "./components/body";
+import About from "./components/aboutUs";
+import ContactUs from "./components/contact";
+import Flow from "./components/flow";
+import SolarEnergy from "./components/solar";
+import FAQ from "./components/faq";
+import Home from "./components/emergency";
 
 function App() {
   return (
     <div>
       <Navbar></Navbar>
-      <BodyComponent/>
-      <About/>
-      <SolarEnergy/>
-      <FAQ/>
-      <Home/>
-      <ContactUs/>
-      <Flow/>
-      
+      <BodyComponent />
+      <About />
+      <SolarEnergy />
+      <FAQ />
+      <Home />
+      <ContactUs />
+      <Flow />
+
       {/* <Partners/> */}
     </div>
     // <div className="App">
