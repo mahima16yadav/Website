@@ -5,10 +5,19 @@
 
 .title {
     font-family: sans-serif;
-    line-height: 0.8;
+    /* line-height: 0.8; */
     font-weight: lighter;
     margin: 20px 0;
+    font-size :large;
+    
 }
+
+
+.text{
+    font-size:30px;
+}
+
+
 
 .body-container {
     text-align: center;
