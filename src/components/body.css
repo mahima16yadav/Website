@@ -5,19 +5,16 @@
 
 .title {
     font-family: sans-serif;
-    /* line-height: 0.8; */
-    font-weight: lighter;
+    line-height: 0.8;
+    font-weight:500;
     margin: 20px 0;
     font-size :large;
     
 }
 
-
 .text{
     font-size:30px;
 }
-
-
 
 .body-container {
     text-align: center;
@@ -76,14 +73,15 @@
 
 .contact-button {
     background-color: transparent; 
-    border: 2px solid black;
+    border: 2px solid black; 
     color: black; 
     padding: 15px 20px; 
     font-size: 1.2em; 
     border-radius: 30px; 
     cursor: pointer;
     transition: background-color 0.3s ease; 
-    margin-bottom: 60px;
+    margin-bottom: 80px;
+    text-decoration: none;
 }
 
 .contact-button:hover {

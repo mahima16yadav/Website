@@ -11,16 +11,18 @@ body {
 
 .container {
   padding: 0px; /* Reduce the padding */
+  
 }
 
 .solar-energy-container {
+  
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 50px;
   background-color: #f1f1f1; /* Light gray container background */
   border-radius: 25px;
-  width: 1800px; /* Increase the width of the gray box */
+  width: 2000px; /* Increase the width of the gray box */
   margin: 50px auto;
 }
 

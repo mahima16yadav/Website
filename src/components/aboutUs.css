@@ -14,6 +14,7 @@ main {
     font-weight: bold; 
     font-family: sans-serif;
     margin-bottom: 20px;
+    font-weight: 500;
   }
   
   .about-us {
@@ -51,12 +52,11 @@ main {
     align-items: center;
     flex-direction: column; 
     font-size: 2.5em;
-    font-weight: bold; 
     font-family: sans-serif;
+    font-weight: 500;
   }
   
   .content p {
     font-size: 1.1em;
     line-height: 1.5;
   }
-  

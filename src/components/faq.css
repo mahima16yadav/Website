@@ -1,115 +1,129 @@
-* {
-    margin: 0;
-    padding: 0;
-    /* box-sizing: border-box; */
-  }
-  
-  body {
-    font-family: Arial, sans-serif;
-    background-color: white; /* Light gray background */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-  }
-  
-  .faq-container {
-    /* max-width: 800px; */
-    /* width: 100%; */
-    padding: 20px;
-    background-color: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-  }
-  
-  .faq-header {
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-  }
-  
-  .faq-dot {
-    width: 10px;
-    height: 10px;
-    background-color: #ff6700;
-    border-radius: 50%;
-    margin-right: 10px;
-  }
-  
-  .faq-header h1 {
-    font-size: 1.2em;
-    color: #ff6700;
-  }
-  
-  h2 {
-    font-size: 2em;
-    margin-bottom: 20px;
-  }
-  
-  .faq-list {
-    margin-bottom: 40px;
-  }
-  
-  .faq-item {
-    background-color: #f1f1f1;
-    border-radius: 10px;
-    margin-bottom: 10px;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-  }
-  
-  .faq-question {
-    padding: 15px 20px;
-    cursor: pointer;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .faq-question h3 {
-    font-size: 1.1em;
-    font-weight: normal;
-  }
-  
-  .faq-question span {
-    font-size: 1.5em;
-    color: #ff6700;
-  }
-  
-  .faq-answer {
-    padding: 0 20px 15px;
-    background-color: #fff;
-  }
-  
-  .faq-contact {
-    display: flex;
-    align-items: center;
-  }
-  
-  .faq-contact-icon {
-    width: 40px;
-    height: 40px;
-    background-color: #ff6700;
-    border-radius: 10px;
-    margin-right: 20px;
-  }
-  
-  .faq-contact-info h3 {
-    font-size: 1.2em;
-    margin-bottom: 10px;
-  }
-  
-  .faq-contact-info p {
-    font-size: 0.9em;
-    color: #666;
-  }
-  
-  .faq-contact-info a {
-    color: #ff6700;
-    text-decoration: none;
-  }
-  
-  .faq-contact-info a:hover {
-    text-decoration: underline;
-  }
-  
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 200vh;
+}
+
+.faq-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 2500px;
+  padding: 20px;
+  background-color: white;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  /* border-radius: 10px; */
+}
+
+.left-content {
+  width: 100%;
+}
+
+.right-content {
+  width: 100%;
+}
+
+.faq-header {
+  /* display: flex; */
+  align-items: center;
+  margin-bottom: 90px;
+}
+
+.faq-dot {
+  width: 10px;
+  height: 10px;
+  background-color: #ff6700;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.faq-header h1 {
+  font-size: 1.2em;
+  color: black;
+}
+
+h2 {
+  font-size: 3.5em;
+  margin-bottom: 20px;
+  font-weight: 500;
+  line-height: 1.1em;
+}
+
+.faq-list {
+  margin-bottom: 90px;
+}
+
+.faq-item {
+  background-color: white;
+  border-radius: 15px;
+  margin-bottom: 19px;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.faq-question {
+  padding: 21px 30px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.faq-question h3 {
+  font-size: 1.3em;
+  font-weight:bold;
+}
+
+.faq-question span {
+  font-size: 1.5em;
+  color: black;
+}
+
+.faq-answer {
+  padding: 0 30px 15px;
+  background-color: #fff;
+  font-size: 1.3em;
+  font-weight: lighter;
+  color: gray;
+}
+
+.faq-contact {
+  display: flex;
+  align-items: center;
+  margin-top: 90px;
+}
+
+.faq-contact-icon {
+  width: 40px;
+  height: 40px;
+  background-color: #ff6700;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.faq-contact-info h3 {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  /* line-height: 1.2em; */
+}
+
+.faq-contact-info p {
+  font-size: 1.0em;
+  color: #666;
+  line-height: 1.4em;
+}
+
+.faq-contact-info a {
+  color: black;
+  text-decoration: underline;
+}

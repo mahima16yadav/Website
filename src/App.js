@@ -8,6 +8,7 @@ import Flow from "./components/flow";
 import SolarEnergy from "./components/solar";
 import FAQ from "./components/faq";
 import Home from "./components/emergency";
+import PricingSection from "./components/pricing";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <BodyComponent />
       <About />
       <SolarEnergy />
+      <PricingSection/>
       <FAQ />
       <Home />
       <ContactUs />
