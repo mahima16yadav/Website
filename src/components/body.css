@@ -9,11 +9,10 @@
     font-weight:500;
     margin: 20px 0;
     font-size :large;
-    
 }
 
 .text{
-    font-size:30px;
+    font-size:35px;
 }
 
 .body-container {
@@ -69,10 +68,12 @@
 
 .button-container {
     margin: 15px 0;
+    background-color: transparent; 
+
 }
 
 .contact-button {
-    background-color: transparent; 
+    /* background-color: transparent;  */
     border: 2px solid black; 
     color: black; 
     padding: 15px 20px; 
@@ -81,7 +82,6 @@
     cursor: pointer;
     transition: background-color 0.3s ease; 
     margin-bottom: 80px;
-    text-decoration: none;
 }
 
 .contact-button:hover {

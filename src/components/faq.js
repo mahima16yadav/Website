@@ -36,11 +36,12 @@ function FAQ() {
       <div className="left-content">
         <div className="faq-header">
           <span className="faq-dot"></span>
-          <h1>FAQ</h1>
+          <h1><img src="./dot.png" alt="Dot" className="dot-image" />      FAQ</h1>
         </div>
         <h2>Answers to the<br/> frequently asked<br/> questions.</h2>
+        <div className="faq-contact-icon"><img src="./circle.jpeg" alt="circle"/></div>
         <div className="faq-contact">
-          <div className="faq-contact-icon"></div>
+          
           <div className="faq-contact-info">
             <h3>Still have questions?</h3>
             <p>For assistance, please visit our <a href="#">Contact Us</a> page or call our customer<br/> support hotline at <strong>(671) 555-0110</strong>. Our dedicated team is ready to help<br/> you on your journey to a greener, more sustainable future.</p>
