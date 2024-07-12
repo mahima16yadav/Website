@@ -19,7 +19,7 @@
 }
 
 .navbar-logo img {
-    height: 50px;
+    height: 80px;
     margin-left: 80px;  /* Adjust this value to control the distance from the left margin */
     width: auto;
 }
@@ -28,7 +28,7 @@
     list-style: none;
     display: flex;
     margin: 0;
-    padding: 0;
+    padding: 480px;
     font-weight: 500;
 }
 
@@ -52,25 +52,26 @@
     text-decoration: underline #f76c1b; /* Underline the text with orange color on hover */
 }
 
+/*
 .navbar-login a {
     color: white;
     text-decoration: none;
     /* padding: 5px 10px; */
-    border: 1px solid #f76c1b;  /* Border color matches the orange color */
-    background-color: #f76c1b;  /* Background color matches the orange color */
-    border-radius: 30px; /* Add this line to make the button curved */
-    transition: background-color 0.3s, color 0.3s;
+    /* border: 1px solid #f76c1b;  /* Border color matches the orange color */
+    /*background-color: #f76c1b;  /* Background color matches the orange color */
+    /*border-radius: 30px; /* Add this line to make the button curved */
+    /*transition: background-color 0.3s, color 0.3s;
     margin-right: 100px;
     padding: 12px 20px;
     font-size: larger;
     /* font-weight: bold; */
-}
+/*}*/
 
-.navbar-login a:hover {
+/* .navbar-login a:hover {
     background-color: white;
     color: #f76c1b;  /* Hover text color matches the orange color */
-    border: 1px solid #f76c1b;
-}
+ /*   border: 1px solid #f76c1b;*/
+/*} */
 
 
 /* Additional styles for the main content */

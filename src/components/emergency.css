@@ -20,9 +20,10 @@
     max-width: 1200px;
     width: 100%;
     padding: 20px;
-    background-color: white;
+    background-color: #f1f1f1;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 80px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
   }
   
   .home-content {
@@ -37,7 +38,7 @@
   
   .home-content p {
     font-size: 1.1em;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     color: black;
   }
   

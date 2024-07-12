@@ -4,25 +4,53 @@ import './pricing.css';
 const PricingSection = () => {
   return (
     <div className="pricing-section">
-      <h1 className="pricing-title">Pricing</h1>
-      <p className="pricing-subtitle">
-        Our pricing plans are simple and designed to cater to households and companies of various<br/>sizes. Choose a plan that suits your needs and budget.
+      <h1>Pricing</h1>
+      <p>
+        Our pricing plans are simple and designed to cater to households and companies of various sizes. Choose a plan that suits your needs and budget.
       </p>
-      <div className="pricing-container">
+      <div className="pricing-cards">
         <div className="pricing-card">
-          <h3 className="plan-name">Enterprise</h3><br/>
-          <h2 className="plan-price">Custom</h2><br/>
-          <p className="plan-description">
-            Tailored for businesses with significant energy demands
-          </p><br/>
-          <button className="contact-button">Contact us  &rarr;</button>
-        </div>
-        <div className="included-features">
-          <h3>What’s included</h3>
+          <h2>Basic</h2>
+          <p className="price">$59 <span>per month</span></p>
+          <p>For small households or businesses with moderate energy consumption</p>
+          <button className="get-started">Get started</button>
           <ul>
-            <li><span className="feature-check">&#x2713;</span> Customizable subscription options</li>
-            <li><span className="feature-check">&#x2713;</span> Dedicated technical support and assistance</li>
-            <li><span className="feature-check">&#x2713;</span> Advanced analytics and 24/7 priority support</li>
+            <li>Fixed amount of renewable energy supply</li>
+            <li>Installation support for chosen energy type</li>
+            <li>Basic customer support included</li>
+          </ul>
+        </div>
+        <div className="pricing-card">
+          <h2>Basic</h2>
+          <p className="price">$59 <span>per month</span></p>
+          <p>For small households or businesses with moderate energy consumption</p>
+          <button className="get-started">Get started</button>
+          <ul>
+            <li>Fixed amount of renewable energy supply</li>
+            <li>Installation support for chosen energy type</li>
+            <li>Basic customer support included</li>
+          </ul>
+        </div>
+        <div className="pricing-card popular">
+          <h2>Enterprise</h2>
+          <p className="price">$59 <span>per month</span></p>
+          <p>Tailored for businesses with significant energy demands</p>
+          <button className="contact-us">Contact us</button>
+          <ul>
+            <li>Customizable subscription options</li>
+            <li>Dedicated technical support and assistance</li>
+            <li>Advanced analytics and 24/7 priority support</li>
+          </ul>
+        </div>
+        <div className="pricing-card">
+          <h2>Basic</h2>
+          <p className="price">$59 <span>per month</span></p>
+          <p>For small households or businesses with moderate energy consumption</p>
+          <button className="get-started">Get started</button>
+          <ul>
+            <li>Fixed amount of renewable energy supply</li>
+            <li>Installation support for chosen energy type</li>
+            <li>Basic customer support included</li>
           </ul>
         </div>
       </div>

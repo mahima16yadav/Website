@@ -15,9 +15,9 @@ const Navbar = () => {
         <li><a href="#contact">Contact Us</a></li>
       </ul>
       
-      <div className="navbar-login">
+      {/* <div className="navbar-login">
         <a href="#login">Log In &rarr;</a>
-      </div>
+      </div> */}
 
     </nav>
   );

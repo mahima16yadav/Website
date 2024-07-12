@@ -22,8 +22,22 @@ body {
   padding: 50px;
   background-color: #f1f1f1; /* Light gray container background */
   border-radius: 25px;
-  width: 2000px; /* Increase the width of the gray box */
+  width: 100%; /* Increase the width of the gray box */
   margin: 50px auto;
+}
+
+.custom-class {
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: navy;
+  border-radius: 15rem; /* Adjust as needed */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  box-sizing: border-box;
+  cursor: pointer;
 }
 
 
@@ -33,9 +47,10 @@ body {
 }
 
 .text-content h1 {
-  font-size: 2.5em;
+  font-size: 2.8em;
   margin-bottom: 10px;
   font-family: sans-serif;
+  font-weight: 500;
 }
 
 .text-content p {

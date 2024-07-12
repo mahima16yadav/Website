@@ -10,7 +10,7 @@ const BodyComponent = () => {
         <br></br>
         <h4 className="subtitle">
           <img src="./dot.png" alt="Dot" className="dot-image" /> Future of Care
-        </h4>
+        </h4><br/>
         <div className="text">
           <h1 className="title">A Sustainable Vision</h1>
           <h1 className="title">for Ambulance</h1>
@@ -34,7 +34,7 @@ const BodyComponent = () => {
         <img src="./doctor.jpeg" alt="Doctor" className="doctor-image" />
       </div>
       <div className="button-container">
-        <button className="contact-button">Get in touch</button>
+        <button className="contacts-buttons">Get in touch</button>
       </div>
     </div>
   );

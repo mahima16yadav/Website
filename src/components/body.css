@@ -72,8 +72,8 @@
 
 }
 
-.contact-button {
-    /* background-color: transparent;  */
+/* .contact-button {
+    background-color: transparent; 
     border: 2px solid black; 
     color: black; 
     padding: 15px 20px; 
@@ -82,8 +82,19 @@
     cursor: pointer;
     transition: background-color 0.3s ease; 
     margin-bottom: 80px;
-}
+} */
 
-.contact-button:hover {
+.contacts-buttons{
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+    padding:15px 20px;
+    font-size: 1.2em;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 40px;
+}
+.contacts-buttons:hover {
     background-color: #f76c1b; 
 }
